@@ -6,7 +6,8 @@ class Solution:
         unique_nums = set()
 
         for num in nums:
-            # if num already present in set return True directly as a duplicate is found
+            # if num already present in set return True
+            # directly as a duplicate is found
             # else add it to unique_nums list
             if num in unique_nums:
                 return True
